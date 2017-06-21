@@ -14,6 +14,7 @@
 #   hubot framma <text> <text> - Generate Framma's meme with captions
 #   hubot yunus <text> <text> - Generate Yunus's meme with captions
 #   hubot perry <text> <text> - Generate Perry's meme with captions
+#   hubot legacy <text> <text> - Generate CTO's meme with captions
 
 memeGenerator = require "hubot-meme/src/lib/memecaptain.coffee"
  
