@@ -78,3 +78,7 @@ module.exports = (robot) ->
   robot.respond /perry (.*) (.*)/i, (msg) ->
 	    memeGenerator msg, 'tKDnjg', msg.match[1], msg.match[2], (url) ->
 	      msg.send url
+        
+  robot.respond /legacy (.*) (.*)/i, (msg) ->
+	    memeGenerator msg, '74E8RQ', msg.match[1], msg.match[2], (url) ->
+	      msg.send url
